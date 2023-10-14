@@ -53,6 +53,7 @@ h3 {
     align-items: left;
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 2px;
 }
 h4 {
     font-size: 20px;
@@ -90,25 +91,6 @@ nav {
     top: 0;
     width: 100%;
 }
-nav li {
-    align-items: center; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-nav a {
-    align-items: center;
-    color: var(--navText);
-    display: inline-block;
-    font-weight: 500;
-    padding: 10px;
-}
-#active {
-    color: var(--linkColor);
-}
-nav a:hover, a:focus {
-    color: var(--textColorSec);
-}
 #icon {
     height: 20px;
     padding: 10px;
@@ -131,13 +113,6 @@ footer p {
     font-size: 15px;
     font-weight: 600;
     text-align: center;
-}
-
-/**********.links**********/
-.links li {
-    align-items: left;
-    font-size: 18px;
-    line-height: 2;
 }
 
 /**********SPECIFIC CSS:**********/
