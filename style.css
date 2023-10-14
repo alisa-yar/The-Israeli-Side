@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bg: black;
+    --textColor: white;
+    --textColorSec: #818181;
+    --select: #3A3B3C;
+    --navBg: rgb(13, 13, 13);
+    --navText: white;
+    --linkColor: #007AFF;
+}
+
+.light-mode {
+    --bg: #F2F2F6;
+    --textColor: black;
+    --textColorSec: #6C6D70;
+    --select: #818181;
+    --navBg: white;
+    --navText: black;
+    --linkColor: #007AFF; 
+}
+
+/**********BASIC STYLES**********/
+* {
+    box-sizing: content-box;
+}
+body {
+    background-color: var(--bg);
+    color: var(--textColor);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500; 
+    margin: 0; 
+    padding: 0;
+}
+main {
+    padding: 10px 20px; /*vertical | horizontal*/
+}
+
+/**********TYPOGRAPHY**********/
+h1 {
+    font-size: 37px;
+    font-weight: 800;
+}
+h2 {
+    align-items: left;
+    font-size: 25px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+a {
+    color: var(--linkColor);
+    text-decoration: none;
+}
+p {
+    align-items: left;
+    color: var(--textColorSec);
+    font-size: 18px;
+}
+
+/**********LISTS**********/
+li {
+    line-height: 2;
+    /* list-style-type: none; */
+}
+
+/**********NAVIGATION BAR**********/
+nav {
+    align-items: center; 
+    background-color: var(--navBg);
+    box-sizing: border-box;
+    display: inline-flex;           
+    height: 60px;
+    justify-content: center;
+    position: fixed;      
+    top: 0;
+    width: 100%;
+}
+nav li {
+    align-items: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav a {
+    align-items: center;
+    color: var(--navText);
+    display: inline-block;
+    font-weight: 500;
+    padding: 10px;
+}
+#active {
+    color: var(--linkColor);
+}
+nav a:hover, a:focus {
+    color: var(--textColorSec);
+}
+#icon {
+    height: 20px;
+    padding: 10px;
+    width: 20px;
+}
+
+/**********CARD**********/
+.card {
+    background-color: var(--navBg);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-top: 60px;
+    padding: 10px 20px; /*vertical | horizontal*/
+}
+
+/**********FOOTER**********/
+footer p {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/**********.links**********/
+.links li {
+    align-items: left;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/**********SPECIFIC CSS:**********/
