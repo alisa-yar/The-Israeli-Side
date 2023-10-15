@@ -4,4 +4,5 @@
 - Sources
 - Images (?)
 - Change colors to black and red (?)
-- Highlight the important sentences
+- Highlight the important sentences (done)
+- Videos
