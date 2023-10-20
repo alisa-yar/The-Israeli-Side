@@ -132,6 +132,9 @@ footer p {
     font-weight: 600;
     text-align: center;
 }
+footer a {
+    text-decoration: underline;
+}
 
 /**********SPECIFIC CSS:**********/
 /**********videos.html**********/
