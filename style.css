@@ -146,6 +146,10 @@ footer p {
     background-color: var(--bg);
     margin: 5px;
 }
+/* .video-title {
+    width: 50vw;
+    font-size: 1rem;
+} */
 @media screen and (max-width: 550px) {
     .video {
         width: 50vw;
