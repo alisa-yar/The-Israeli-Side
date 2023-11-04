@@ -1,0 +1,2 @@
+http://mysite.netlify.com/* https://mysite.netlify.com/:splat 301!
+/* /index.html 200
