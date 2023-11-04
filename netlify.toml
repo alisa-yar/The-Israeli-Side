@@ -1,5 +1,4 @@
 [[redirects]]
-  from = "https://the-israeli-side.netlify.app/*"
-  to = "https://israel.alisa.social/:splat"
-  status = 301
-  force = true
+from = "/home"
+to = "/"
+status = 301
